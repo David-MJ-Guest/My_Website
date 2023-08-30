@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Course</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>    
+    <!-- insert form here -->
+    <form>
+        <fieldset>
+            <ul>
+                <li>
+            <legend>Your Details</legend>
+        </li>
+        <li>
+            <label>First Name </label> 
+            <input type="text" name="first" id="FirstnameInput" autofocus required>
+        </li>
+        <li>
+            <label>Surname</label> 
+            <input type="text" name="Surname" id="SurnameInput">
+        </li>
+        <li>
+            <label>Posistion/Role</label> 
+            <input type="text" name="Position/Role" id="Position/RoleInput">
+            </li>
+            <li>
+                <label>Email</label>
+                <input type="email" name="email" id="EmailInput" placeholder="you@domain.com">
+            </li>
+            <li>
+                <label>Tel</label>
+                <input type="number" name="telephone" id="telephoneInput" placeholder="123456789">
+            </li>
+        </ul>
+        </fieldset>
+
+        <fieldset>
+            <ul>
+                <li>
+            <legend>Course Details</legend>
+        </li>
+        <li>
+            <label>Course Select</label>
+            <select name="Course" id="CourseInput">
+            <option value="programming with JavaScript"> JavaScript</option>
+            <option value="Developing Web Applications HTML"> HTML </option>
+            <option value="Developing Responsive Websites"> Responsive Websites</option>
+            <option value="Leveraging Power JQuery"> JQuery</option>
+        </select>
+    </li>
+    <li>
+        <label>Number Delegates</label>
+        <input type="number" name="Delegates" id="DelegatesInput" min="5" max="15">
+    </li>
+    <li>
+        <label>Course Date</label>
+        <input type="date" name="course date" id="CourseDateInput">
+    </li>
+
+        </fieldset>
+
+        <fieldset>
+            <button type="submit">Submit</button>
+        </fieldset>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
