@@ -16,10 +16,10 @@ const movies = [
       // Check if the current movie title matches the movieTitle argument
       if (movie.title === movieTitle) {
         // Log details of the movie
-        console.log(`Title: ${movie.title}, Director: ${movie.director}, Year: ${movie.year}`);
+        console.log("Found:", movie);
       }
       // Log the value of movie before the loop closes
-      console.log("Value of movie inside loop:", movie);
+      console.log("Movie:", movie);
     }
   }
   
